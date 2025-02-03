@@ -1,0 +1,22 @@
+[
+  {
+    "id": "674d89acdf76e96b90ba7ead",
+    "author": "Jason Williscroft",
+    "title": "Evolving a NoSQL Database Schema",
+    "description": "In a NoSQL environment, Entity Manager organizes the physical distribution of data to support efficient query operations.",
+    "url": "https://karmanivero.us/projects/entity-manager/evolving-a-nosql-db-schema/",
+    "urlToImage": "https://karmanivero.us/assets/collections/entity-manager/evolving-a-nosql-db-schema-banner.jpg",
+    "publishedAt": "2024-11-11T01:13:22.000+00:00",
+    "content": "Entity Manager works by interpreting your configured database schema in a very particular, very opinionated way.\r\nBy way of example, this section will start with a simple data model, evolve a databas… [+41962 chars]"
+  },
+  {
+    "id": "674d89acdf76e96b90ba7ea7",
+    "author": "janderland",
+    "title": "FQL: A KV Query Language",
+    "description": "Foundation DB Query Language. Contribute to janderland/fql development by creating an account on GitHub.",
+    "url": "https://github.com/janderland/fql",
+    "urlToImage": "https://opengraph.githubassets.com/9447a51328d2a792c656a6192c0fd92ae5ef04e7b9a3cebc6d90f5d03b299114/janderland/fql",
+    "publishedAt": "2024-11-20T15:50:39.000+00:00",
+    "content": "FQL provides a query language and an alternative client API for Foundation DB.\r\nSome things this project aims to achieve are:\r\nWith the Foundation DB client library (&gt;= v6.2.0) and Go (&gt;= v1.20… [+10144 chars]"
+  }
+]
