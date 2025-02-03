@@ -1,50 +1,78 @@
-# React + TypeScript + Vite
+# 🌟 News Aggregator🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The News Aggregator is a TypeScript-based React web application that interacts with the News Aggregator API. It provides users with a seamless experience to browse trending news, search for articles, and personalize their news feed based on their preferences.
 
-Currently, two official plugins are available:
+### 🎯 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔥 View trending and breaking news.
 
-## Expanding the ESLint configuration
+🔍 Search for news articles by keywords.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🏷️ Browse news by categories.
 
-- Configure the top-level `parserOptions` property like this:
+👤 User authentication (registration and login).
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+🎯 Personalized news feed based on user preferences.
+
+🌐 Navigate to external news sources.
+
+### 🛠️ Technologies and Tools Used
+
+- TypeScript: Enhances JavaScript with static typing.
+- React: Frontend framework for building user interfaces.
+- React Router: For handling navigation and routing.
+- Bulma: A modern CSS framework.
+- FontAwesome: For icons and UI elements.
+- Vite: For fast development and build processes.
+- SASS: For more powerful and flexible styling.
+
+### 🚀 Getting Started
+
+**Prerequisites**
+
+- Node.js 18+
+
+- npm 9+
+
+- A running instance of the News Aggregator API
+
+**Installation**
+
+1. Clone the Repository
+```bash
+git clone https://github.com/AnyaRatusnyak/news_aggregator.git  
+cd news_aggregator
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Install Dependencies
+```bash
+npm install
 ```
+
+3. Configure Environment Variables
+Create a .env file in the root directory and add the following:
+```bash
+VITE_API_URL=http://localhost:8080/api
+```
+
+4. Run the Application
+```bash
+npm run dev
+```
+The application will be available at http://localhost:5173/.
+
+### 📌 Available Scripts
+
+- npm run dev – Start development server
+
+- npm run build – Build the application for production
+
+- npm run preview – Preview the built application
+
+- npm run lint – Run linting checks
+
+### 👷 Author
+
+LinkedIn: Hanna Ratushniak
+
+GitHub: AnyaRatusnyak
